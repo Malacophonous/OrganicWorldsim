@@ -1,0 +1,21 @@
+# each entry is an instance attribute name
+# entries with = are dictionaries for defining stuff with numbers
+# and must have ' = ' and proper dictionary form (passed to ast.literal_eval)
+# entries in parenthesis must close them
+#
+name
+age
+sex = {'Male':0,'Female':1}
+race = {'Human':0,'Race1':1,'Race2':2,'Race3':3}
+job
+appearance
+history
+relationships$
+home
+{agility, curiosity, determination, perception, strength, sociability}
+skills
+{relationshipQuantity, relationshipQuality, importancefamily, importancefriends, importancemate, whatOtherPeopleThink, selfEsteem}
+racialART$
+{personalSafety, health, financial, safetyNet}
+racialSAI$
+lifegoal = {'Content Existence':0, 'Knowledge':1, 'Power':2,'Actualization':3,'Hedonism':4,'Thrill-seeking':5,'Revenge':6,'BetterlifeForLovedOnes':7}

@@ -4,16 +4,31 @@ from gameworld.entities.entitysnapshot import EntitySnapShot
 class Character(Entity):
     def __init__(self,_name):
         super().__init__()
+        #important game variables
         self.name = _name
         self.nodenumber = 0
 
+        #character variables
         self.age = 0
         self.race = None
-        self.sex = 0
+        self.sex = 0    #0 is male, 1 is female
         self.orientation = 0
+        self.job = ''
+        self.appearance = ''
+        self.history = ''
+        self.home = None
+
+        #character basic stats
+        self.agility = 0
+        self.curiosity = 0
+        self.determination = 0
+        self.perception = 0
+        self.strength = 0
+        self.sociability = 0
+
+        self.skills = []
 
         self.inventory = []
-        self.perception = 4
 
         self.equipped = dict()
         self.alive = 1  #0 is dead, 1 is alive, 2 is sleeping

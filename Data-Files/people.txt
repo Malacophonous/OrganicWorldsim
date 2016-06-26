@@ -1,0 +1,58 @@
+# Characters for loading into the gameworld will have their attributes and data placed in this file.
+# Please read the character creation worksheet before proceeding.
+# Characters cannot have the same names
+# Final editorial discretion is reserved by Malacophonous.
+#
+NPC
+Bob Test
+20
+Male
+Human
+Tester
+People would say Bob Test is a nondescript young man.
+Bob Test grew up in the city of San Francisco, getting an early foot in the QA industry.
+(John Doe,50,50,50,friend); (Jane Doe,50,50,50,friend)
+San Francisco
+(4,7,6,6,3,4)
+('Quality Testing5', 'Cooking1', 'Driving3', 'Programming3')
+(2,4,3,3,4,2,3)
+(Human,0,10,-10); (Race1,10,0,0)
+(1,4,4,2)
+(Human,75,0,25); (Race1,50,0,50)
+Actualization
+
+NPC
+John Doe
+25
+Male
+Human
+Stand In
+His appearance is a mystery.
+Nobody knows.
+(Bob Test,50,50,50,friend); (Jane Doe,100,100,100,mate)
+San Francisco
+(5,5,5,5,5,5)
+('Disguise10')
+(3,3,3,3,3,3,3)
+(Human,0,0,0); (Race1,0,0,0)
+(3,3,3,3)
+(Human,33,33,33); (Race1,33,33,33)
+Content Existence
+
+NPC
+Jane Doe
+25
+Female
+Human
+Stand In
+Her appearance is a mystery.
+Nobody knows.
+(Bob Test,50,50,50,friend); (John Doe,100,100,100,mate)
+San Francisco
+(5,5,5,5,5,5)
+('Disguise10')
+(3,3,3,3,3,3,3)
+(Human,0,0,0); (Race1,0,0,0)
+(3,3,3,3)
+(Human,33,33,33); (Race1,33,33,33)
+Content Existence

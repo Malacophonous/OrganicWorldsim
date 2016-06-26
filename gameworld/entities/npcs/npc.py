@@ -3,6 +3,22 @@ from gameworld.entities.character import Character
 class NPC(Character):
     def __init__(self,_name):
         super().__init__(_name)
+
+        self.personalSafety = 0
+        self.health = 0
+        self.financial = 0
+        self.safetyNet = 0
+        self.relationshipQuantity = 0
+        self.relationshipQuality = 0
+        self.importancefamily = 0
+        self.importancefriends = 0
+        self.importancemate = 0
+        self.whatOtherPeopleThink = 0
+        self.selfEsteem = 0
+
+        self.racialART = dict()
+        self.racialSAI = dict()
+
         self.goals = []
         self.memory = []
         self.routine = []
@@ -24,7 +40,7 @@ class NPC(Character):
 
     def PercieveAreaPeople(self,World):
         result = []
-        for npc in World.npcs.values():
+        for npc in World.PM.npcs.values():
             if abs(npc.x-self.x)<self.perception and abs(npc.y-self.y)<self.perception:
                 result.append(npc)
         return result
